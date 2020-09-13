@@ -1,3 +1,7 @@
+# Note: This is a forked version from [vercel/styled-jsx](https://github.com/vercel/styled-jsx)
+The main difference is first class shadow dom support. `css.resolve` could be the solution as well, but you won't want to update all the legacy `<style jsx>` template manually, so that's why this forked version here.
+You may aware that this version is primarily suit for our own projects, so it may have breaking changes compare to the original version. Open an issue if you need help.
+
 # styled-jsx
 
 [![Build Status](https://travis-ci.org/zeit/styled-jsx.svg?branch=master)](https://travis-ci.org/zeit/styled-jsx)

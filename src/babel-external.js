@@ -130,7 +130,7 @@ function addHash(exportIdentifier, hash) {
 export const visitor = {
   ImportDeclaration(path, state) {
     // import css from 'styled-jsx/css'
-    if (path.node.source.value !== 'styled-jsx/css') {
+    if (!path.node.source.value.includes('styled-jsx/css')) {
       return
     }
 

@@ -1,5 +1,5 @@
 {
-  "name": "styled-jsx",
+  "name": "@poor-branson/styled-jsx",
   "version": "3.3.0",
   "license": "MIT",
   "repository": "zeit/styled-jsx",
@@ -48,13 +48,6 @@
       "unicorn/prefer-node-append": 0,
       "unicorn/prefer-query-selector": 0
     }
-  },
-  "lint-staged": {
-    "*.js": [
-      "npm run lint",
-      "prettier --single-quote --no-semi --write",
-      "git add"
-    ]
   },
   "dependencies": {
     "@babel/types": "7.8.3",
